@@ -1,72 +1,216 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>xTime - Responsive Coming Soon Template - Documentation</title>
-	<link rel="stylesheet" href="install.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>educate - Free CSS Template by ZyPOP</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--
+educate, a free CSS web template by ZyPOP (zypopwebtemplates.com/)
+
+Download: http://zypopwebtemplates.com/
+
+License: Creative Commons Attribution
+//-->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+
+<script type="text/javascript" src="js/custom.js"></script>
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 </head>
+<body>
+<div id="container">
+
+    <header>
 	
-	<body>
-   
-		<div class="wrapper">
-        <h1 id="top-title" style="text-align: center">xTime - Responsive Coming Soon Template - Documentation</h1>
-		<p style="text-align: center">by MatchThemes - <a href="http://www.matchthemes.com" title="MatchThemes">www.matchthemes.com</a></p>
+    		
+        <nav>
+	<div class="width">
+    			<ul class="sf-menu dropdown">
+        	<li class="selected"><a href="index.html">Home</a></li>
+            <li><a class="has_submenu" href="examples.html">Examples</a>
+            	<ul>
+                	<li><a href="noslides.html">Static Text Page</a></li>
+                    <li><a href="page.html">Static Frontpage</a></li>
+                    <li><a href="#">Another link</a></li>
+                </ul>
+            </li>
+	     <li><a href="three-column.html">Three Column</a></li>
+            <li><a class="has_submenu" href="#">Products</a>
+            	<ul>
+                	<li><a href="#">Product One</a></li>
+                    <li><a href="#">Product Two</a></li>
+                    <li><a href="#">Product Three</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </div>
+	
+		<div class="clear"></div>
+	
+    </nav>
+
+    <h1><a href="/">educate</a></h1>
+
+
+    <div id="slides-container" class="slides-container width">
+        <div id="slides">
+            <div>
+                
+		   <img src="images/tree.jpg" alt="Placeholder image" />
+
+                    <h2>Tristique sem vitae metus ornare </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque venenatis sagittis enim. Maecenas ligula erat, egestas congue, varius nec, sagittis nec, purus. In neque.</p>
+                                  	
+			<p><a href="#" class="button button-slider">Lorem ipsum dolor</a>
+<a href="#" class="button button-reversed button-slider">Maecenas ligula!</a></p>
+                    
+
+            
+                
+            </div>
+            
+        
+	
+	 <div>
+            	<h2>Have fun with slides!</h2>
+                <p>These slides can contain anything a webpage can! HTML, Javascript, images, flash or whatever! They're completely easy to edit and add to as well, no need to bother editing or even going anywhere near some confusing Javascript files, simply add a &lt;div&gt;&lt;/div&gt; tag with your slider content to the "slides" container and an extra slide control - it takes just seconds to do!</p>
+                
+            </div>
  
-<p class="p-margin">Hi there,</p>
-<p>First of all, thank you for purchasing the xTime - Responsive Coming Soon Template. Please take the time and read the instructions below. If you have any future question/problems send us an email at: <a href="mailto:support@matchthemes.com">support@matchthemes.com</a></p>
-
-<h1>Table of Contents</h1>
-<ol>
-<li>1. <a href="#p1">Getting Started</a></li>
-<ul>
-<li>1.1<a href="#p11"> General Info </a></li>
-<li>1.2<a href="#p12"> Countdown Setup</a></li>
-<li>1.3<a href="#p13"> Slideshow Setup</a></li>
-<li>1.4 <a href="#p14"> Video Setup</a></li>
-<li>1.5 <a href="#p15"> Change background overlay color</a></li>
-<li>1.6<a href="#p16"> Change Subscribe Form Email</a></li>
-</ul>
-<li>2. <a href="#p2">Files Used</a></li>
-<ul>
-<li>2.1 <a href="#p21">CSS Files</a></li>
-<li>2.2 <a href="#p22">Javascript Files</a></li>
-</ul>
-</ol>
-
-<h1 id="p1">1. Getting Started</h1>
-<h2 id="p11">1.1 General Info</h2>
-<p>In the download package you'll find 6 variation templates. Select the one you want to use and customize it as you like.</p>
-
-<h2 id="p12">1.2 Countdown Setup</h2>
-<p>To change the countdown end date open <strong>js/init.js</strong> and edit the countdown attribute fields.</p>
-<p><img src="images/countdown.jpg" alt="" width="400" height="300" /></p>
-
-<h2 id="p13">1.3 Slideshow Setup</h2>
-<p>Open <strong>js/init.js</strong> and edit the <strong>slideshow_images</strong> variable. You can add more images if you want.</p>
-<p><img src="images/slideshow.jpg" alt="" width="400" height="200" /></p>
-
-<h2 id="p14">1.4 Video Setup</h2>
-<p>Open <strong>js/init.js</strong> . Go to line 18 and change the <strong>youTubeVideoID</strong> variable.</p>
-
-<h2 id="p15">1.5 Change background overlay color</h2>
-<p>Open <strong>index.html</strong> . Go to line 36 and for the solid-color div change the background color.</p>
-<p>For the gradient color edit line 33 in the <strong>slideshow-gradient</strong> folder.</p>
-
-<h2 id="p16">1.6 Change Subscribe Form Email</h2>
-<p>You have to edit the <strong>include/subscribe-process.php</strong> and change the $recipient variable value with your own email address.</p>
-<p><img src="images/contact-email.jpg" alt="" width="300" height="100" /></p>
+         
+		</div>
+        <div class="controls"><span class="jFlowNext"><span>Next</span></span><span class="jFlowPrev"><span>Prev</span></span></div>        
+        <div id="myController" class="hidden">
+		<!-- COPY AND PASTE SLIDE CONTROL FOR EACH NEW SLIDE -->
+		<span class="jFlowControl">Slide 1</span>
+		<span class="jFlowControl">Slide 2</span>
+	</div>
+    </div>
 
 
-<h1 id="p2">2. Files Used</h1>
-<h2 id="p21">2.1 CSS Files</h2>
-<p>All CSS files, with the exception of the main CSS file (style.css) can be found in the theme's <strong>/css/</strong> folder.</p>
-<p>style.css - Main stylesheet and determines the majority of the templates styling.</p>
-<p>bootstrap.css &amp; bootstrap-responsive.css - The styles for the <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a> framework.</p>
+    </header>
 
-<h2 id="p22">2.2 Javascript Files</h2>
-<p><a href="http://buildinternet.com/project/supersized/" target="_blank">Supersized</a> - fullscreen slideshow.</p>
-<p><a href="http://www.littlewebthings.com/projects/countdown/
-" target="_blank">Countdown</a> </p>
 
-</div> <!--end wrapper--> 
+
+
+    <div id="body" class="width">
+
+
+
+		<section id="content" class="two-column with-right-sidebar">
+
+	    <article>
+				
+			
+			<h2>Introduction to educate</h2>
+			<div class="article-info">Posted on <time datetime="2013-05-14">14 May</time> by <a href="#" rel="author">Joe Bloggs</a></div>
+
+            <p>Welcome to educate, a free valid CSS3 &amp; HTML5 responsive web template from <a href="http://zypopwebtemplates.com/" title="ZyPOP">ZyPOP</a>. This template is completely <strong>free</strong> to use permitting a link remains back to  <a href="http://zypopwebtemplates.com/" title="ZyPOP">http://zypopwebtemplates.com/</a>. Should you wish to use this template unbranded you can buy a template license from our website for 8.00 GBP, this will allow you remove all branding related to our site, for more information about this see below.</p>	
+            
+            <p>This template has been tested in:</p>
+
+
+            <ul class="styledlist">
+                <li>Firefox</li>
+                <li>IE</li>
+ 		<li>Safari</li>
+                <li>Chrome</li>
+            </ul>
+
+		<a href="#" class="button">Read more</a>
+		<a href="#" class="button button-reversed">Comments</a>
+
+
+		
+		</article>
+	
+		<article class="expanded">
+
+            		<h2>Buy unbranded</h2>
+			<div class="article-info">Posted on <time datetime="2013-05-14">14 May</time> by <a href="#" rel="author">Joe Bloggs</a></div>
+
+			
+            <p>Purchasing a template license for 8.00 GBP (at time of writing around 12 USD) gives you the right to remove any branding including links, logos and source tags relating to ZyPOP. As well as waiving the attribution requirement, your payment will also help us provide continued support for users as well as creating new web templates. Find out more about how to buy at the licensing page on our website which can be accessed at <a href="http://zypopwebtemplates.com/licensing" title="template license">http://zypopwebtemplates.com/licensing</a></p>
+
+<h3>Lorem lipsum</h3>
+
+<p>Morbi fermentum condimentum felis, commodo vestibulum sem mattis sed. Aliquam magna ante, mollis vitae tincidunt in, malesuada vitae turpis. Sed aliquam libero ut velit bibendum consectetur. Quisque sagittis, est in laoreet semper, enim dui consequat felis, faucibus ornare urna velit nec leo. Maecenas condimentum velit vitae est lobortis fermentum. In tristique sem vitae metus ornare luctus tempus nisl volutpat. Integer et est id nisi tempus pharetra sagittis et libero.</p>
+
+
+		<a href="#" class="button">Read more</a>
+		<a href="#" class="button button-reversed">Comments</a>
+		</article>
+        </section>
+        
+        <aside class="sidebar big-sidebar right-sidebar">
+	
+	
+            <ul>	
+               <li>
+                    <h4>Blocklist</h4>
+                    <ul class="blocklist">
+                        <li><a class="selected" href="index.html">Home Page</a></li>
+                        <li><a href="examples.html">Style Examples</a>
+				<ul>
+					<li><a href="page.html">Static slide page</a></li>
+					<li><a href="noslides.html">No slides page</a></li>
+				</ul>
+			</li>
+                        <li><a href="three-column.html">Three column layout example</a></li>
+                        <li><a href="#">Sed aliquam libero ut velit bibendum</a></li>
+                        <li><a href="#">Maecenas condimentum velit vitae</a></li>
+                    </ul>
+                </li>
+                
+               
+
+		
+               
+                <li>
+			<h4>News</h4>
+			<ul class="newslist">
+				<li>
+					<p><span class="newslist-date">Jul 21</span>
+			                   Quisque hendrerit lorem sit amet dui viverra dictum. Phasellus imperdiet magna sit amet arcu tristique ultricies ut in dui.</p>
+				</li>
+
+<li>
+					<p><span class="newslist-date">May 09</span>
+			                   Mauris et felis semper, congue dui ac, iaculis ipsum. Fusce non rhoncus risus, quis luctus nisl. Donec vitae velit tincidunt, tincidunt felis eu, suscipit nibh. </p>
+ 
+				</li>
+			</ul>
+                </li>
+	
+   		<li>
+                    <h4>Maecenas varius</h4>
+                    <ul>
+				<li><a href="#">Nam cursus nisi nec viverra iaculis</a></li>
+				<li><a href="#">Integer lacinia risus id nibh vestibulum</a></li>
+				<li><a href="#">Mauris eget ante ut elit rutrum ornare </a></li>
+				<li><a href="#">Vivamus quis orci et suscipit consequa</a></li>
+				<li><a href="#">Nam eget tellus adipiscin hendrerit</a></li>
+			</ul>
+                </li>
+                
+            </ul>
+		
+        </aside>
+    	<div class="clear"></div>
+    </div>
+    <footer>
+
+         <p>&copy; YourSite 2014. <a href="http://zypopwebtemplates.com/">Free HTML5 Templates</a> by ZyPOP</p>
+      
+    </footer>
+</div>
+</body>
+</html>
